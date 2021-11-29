@@ -1,0 +1,45 @@
+@import "variables";
+
+header{
+    background-color: sandybrown;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    h1{
+        color: sienna;
+        margin: 15px
+    };
+
+    ul{
+        color: slategray;
+        li{
+            list-style-type: none;
+            display: inline;
+            margin: 10px;
+            a{
+                text-decoration: none;
+            };
+        };
+    };
+};
+
+section{
+    h1{
+        color: cornflowerblue;
+    }
+    p{
+        color: crimson;
+    }
+};
+
+$colors: (
+    titulo: #D16E8D,
+    titulo1: #49C4A3,
+    texto: purple,
+    texto1: blue,
+);
+
+
+@each $name, $color in $colors {
+    .#{$name} {color: $color;}
+}

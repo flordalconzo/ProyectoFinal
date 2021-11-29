@@ -1,0 +1,55 @@
+header {
+  background-color: sandybrown;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+header h1 {
+  color: sienna;
+  margin: 15px;
+}
+
+header ul {
+  color: slategray;
+}
+
+header ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 10px;
+}
+
+header ul li a {
+  text-decoration: none;
+}
+
+section h1 {
+  color: cornflowerblue;
+}
+
+section p {
+  color: crimson;
+}
+
+.titulo {
+  color: #D16E8D;
+}
+
+.titulo1 {
+  color: #49C4A3;
+}
+
+.texto {
+  color: purple;
+}
+
+.texto1 {
+  color: blue;
+}
+/*# sourceMappingURL=style.css.map */
